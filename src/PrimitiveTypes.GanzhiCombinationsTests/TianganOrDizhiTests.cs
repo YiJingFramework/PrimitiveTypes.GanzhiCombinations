@@ -35,6 +35,7 @@ public class TianganOrDizhiTests
             Assert.AreEqual(tiangan, tianganBack);
             Assert.AreEqual(tiangan, (Tiangan)td);
             _ = Assert.ThrowsException<InvalidCastException>(() => (Dizhi)td);
+            Assert.AreEqual<TianganOrDizhi>(td, tiangan);
         }
 
         for (int i = 0; i < 12; i++)
@@ -58,6 +59,7 @@ public class TianganOrDizhiTests
             Assert.AreEqual(false, td.TryAsTiangan(out _));
             _ = Assert.ThrowsException<InvalidCastException>(() => (Tiangan)td);
             Assert.AreEqual(dizhi, (Dizhi)td);
+            Assert.AreEqual<TianganOrDizhi>(td, dizhi);
         }
     }
 
