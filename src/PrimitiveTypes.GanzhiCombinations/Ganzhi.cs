@@ -61,6 +61,12 @@ public readonly struct Ganzhi :
         return new Ganzhi(right % 60);
     }
 
+    /// <inheritdoc/>
+    public static int operator -(Ganzhi left, Ganzhi right)
+    {
+        return (left.indexMinusOne - right.indexMinusOne + 60) % 60;
+    }
+
     #region string converting
     /// <inheritdoc/>
     public override string ToString()

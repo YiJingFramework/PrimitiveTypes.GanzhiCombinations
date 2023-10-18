@@ -37,6 +37,10 @@ public class GanzhiTests
 
         Assert.AreEqual(Ganzhi.FromIndex(15).Next(212), Ganzhi.FromIndex(15) + 212);
         Assert.AreEqual(Ganzhi.FromIndex(15).Next(-28222), Ganzhi.FromIndex(15) - 28222);
+
+        Assert.AreEqual(1, Ganzhi.FromIndex(2) - Ganzhi.FromIndex(1));
+        Assert.AreEqual(0, Ganzhi.FromIndex(0) - Ganzhi.FromIndex(0));
+        Assert.AreEqual(59, Ganzhi.FromIndex(1) - Ganzhi.FromIndex(2));
     }
 
     [TestMethod()]

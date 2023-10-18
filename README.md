@@ -6,6 +6,6 @@
 
 ## Wiki
 
-Github: [https://github.com/YiJingFramework/PrimitiveTypes.GanzhiCombinations/wiki](https://github.com/YiJingFramework/PrimitiveTypes/wiki)
+Github: [https://github.com/YiJingFramework/PrimitiveTypes.GanzhiCombinations/wiki](https://github.com/YiJingFramework/PrimitiveTypes.GanzhiCombinations/wiki)
 
-Gitee: [https://gitee.com/YiJingFramework/PrimitiveTypes.GanzhiCombinations/wikis](https://gitee.com/YiJingFramework/PrimitiveTypes/wikis)
+Gitee: [https://gitee.com/YiJingFramework/PrimitiveTypes.GanzhiCombinations/wikis](https://gitee.com/YiJingFramework/PrimitiveTypes.GanzhiCombinations/wikis)
