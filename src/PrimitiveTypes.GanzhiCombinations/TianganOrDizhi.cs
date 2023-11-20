@@ -44,12 +44,12 @@ public readonly struct TianganOrDizhi :
     /// 指示此实例是否表示天干。
     /// Indicates whether the instance represents a Tiangan.
     /// </summary>
-    public bool IsTiangan => (maskedIndex & dizhiMask) is 0;
+    public bool IsTiangan => (this.maskedIndex & dizhiMask) is 0;
     /// <summary>
     /// 指示此实例是否表示地支。
     /// Indicates whether the instance represents a Dizhi.
     /// </summary>
-    public bool IsDizhi => (maskedIndex & dizhiMask) is not 0;
+    public bool IsDizhi => (this.maskedIndex & dizhiMask) is not 0;
 
     /// <summary>
     /// 尝试将此实例转换为天干。

@@ -1,10 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using YiJingFramework.PrimitiveTypes.GanzhiCombinations;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace YiJingFramework.PrimitiveTypes.GanzhiCombinations.Tests;
 
@@ -71,7 +65,7 @@ public class TianganOrDizhiTests
             var fir = Random.Shared.Next(0, 10 + 12);
             var sec = Random.Shared.Next(0, 10 + 12);
             TianganOrDizhi firF;
-            if(fir < 10)
+            if (fir < 10)
                 firF = new TianganOrDizhi((Tiangan)fir);
             else
                 firF = new TianganOrDizhi((Dizhi)(fir - 10));
